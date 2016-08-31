@@ -1,7 +1,7 @@
 info.description: BF
 ---
 spring:
-  profiles: cloud
+  profiles: Profile1,Profile2
 service:
   definition:
     metadata:
