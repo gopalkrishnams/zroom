@@ -1,0 +1,9 @@
+info.description: BF
+---
+spring:
+  cloud:
+    profile: BF-Profile2
+service:
+  definition:
+    metadata:
+      uri: http://${spring.application.name}.${application.domain:cfapps.io}
