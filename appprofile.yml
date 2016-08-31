@@ -1,0 +1,8 @@
+info.description: appprofile
+---
+spring:
+  profiles: appprofile1,appprofile2
+service:
+  definition:
+    metadata:
+      uri: http://${spring.application.name}.${application.domain:cfapps.io}
